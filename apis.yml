@@ -1,7 +1,28 @@
 aid: kaixin001
-name: kaixin001
-description: kaixin001 is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaixin001.png
+name: Kaixin001
+description: >-
+  Kaixin001 (开心网) is a Chinese social networking website launched in March 2008 by
+  founder Cheng Bingao, a former senior executive at Sina. It rose to mass popularity
+  in 2009-2010 on the back of viral social games such as "Friends for Sale" and
+  "Parking Wars" before losing ground to Renren, Sina Weibo, and WeChat. After the
+  parent company was acquired by a listed company in 2016, the founder departed and the
+  business pivoted toward enterprise services and internet finance, marginalizing the
+  original social network. Kaixin001 discontinued its Flash-based social gaming on
+  November 18, 2023, and now persists mainly as a low-activity nostalgia platform. It
+  surfaced in the API Evangelist network as a portfolio-lead stub of Qiming and exposes
+  no current public developer program, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/kaixin001/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,19 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-social-network
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social
+- Social Networking
+- Social Media
+- China
+- Social Gaming
+- Web 2.0
+- Consumer Internet
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kaixin001.com
+  url: https://www.kaixin001.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
